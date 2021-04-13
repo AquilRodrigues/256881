@@ -20,7 +20,7 @@ This project will provide basic calclulation of motor parameter in less time. It
 
 ## Defining Our System
 ### Architecture
-![Architecture](https://github.com/Dhanushu1999/STEPin_Mini_Project/blob/master/1_Requirements/Architecture.png)
+![Architecture](https://github.com/AquilRodrigues/256881/blob/main/1_Requirements/Architecture.png)
 
 - Employee Record Management System aims on providing user with options: . 
     - Add a new record
@@ -29,7 +29,7 @@ This project will provide basic calclulation of motor parameter in less time. It
     - Delete records.
 
 ## SWOT ANALYSIS
-![SWOT-Analysis](https://github.com/Dhanushu1999/STEPin_Mini_Project/blob/master/1_Requirements/swot_analysis.png)
+![SWOT-Analysis]()
 
 # 4W&#39;s and 1&#39;H
 
