@@ -22,11 +22,11 @@ This project will provide basic calclulation of motor parameter in less time. It
 ### Architecture
 ![Architecture](https://github.com/AquilRodrigues/256881/blob/main/1_Requirements/Architecture.png)
 
-- Employee Record Management System aims on providing user with options: . 
-    - Add a new record
-    - Modify existing record. 
-    - Diplay record requested by employee
-    - Delete records.
+- Motor parameter calculator aims on providing user with options: . 
+    - calculate Speed, Torque and current.
+    - Reduce calculation time.
+    - Provide variety of motor
+    
 
 ## SWOT ANALYSIS
 ![SWOT-Analysis]()
@@ -34,19 +34,19 @@ This project will provide basic calclulation of motor parameter in less time. It
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-- Newly established business which or some of the government sectors which could use this application to ease the process of recording data.
+- Students and general public who wants to select appropriate motor for thier application.
 
 ## What:
-- Many organisations especially in some government sectors still use a traditional method of paper filing to store data of each employee ,which makes to hard to keep track of data with growing number of employees.
+- Normally students calculate all the parameters manually which is time consuming. This project will resolve this issue.
 
 ## When:
-- Current where all the aspects are getting digitalized and many IT sectors are working on to record the data over cloud etc it is necessary for many companys to cope up  with growing era.
+- It can be used at any point of time since this is a basic reqirement. As all the systems are getting digitized this aspect can also be taken into consideration.
 
 ## Where:
-- This project is likely to be implemented in certain government sector which follow paper filing to store data.
+- This project can be used in schools, colleges, etc for mathematical calculations related to electric motors.
 
 ## How:
-- The project could help individual employeee or admin to store and access information on each employee by providing username and employee_ID. This project may sometime cause issue  when it comes to storing details of large number of employee as there is no efficient ways to arrange details as a whole.
+- The project askes the user to enter the basic details about the motor which then is applied in speed, torque and parameters equations to obtain the results.
 
 # Detail requirements
 ## High Level Requirements:
@@ -57,7 +57,7 @@ This project will provide basic calclulation of motor parameter in less time. It
 |HR_02|Gcc compiler with Makefile for Multifile programming|Implemented|
 |HR_03|Application that runs on both Windows and Linux operating system|Implemented|
 |HR_04|Application that allows user to make a choice of operation to be performed |Implemented|
-|HR_05|Store data of individual daisplay when required|Implemented|
+
 
 ## Low Level Requirements
 
@@ -67,4 +67,4 @@ This project will provide basic calclulation of motor parameter in less time. It
 |LR_02|Add record functionality wherein the user or admin can add the data of self which is then stored in File           |Implemented|
 |LR_03|Modify record which should be accessible by username and provision to change data   |Implemented|
 |LR_04|Display record to show modified/unmodified data when requested|Future|
-|LR_05|Delete record when the user leaves organization |Implemented|
+
