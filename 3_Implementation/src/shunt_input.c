@@ -1,5 +1,6 @@
 #include "fun.h"
-void shunt(){
+
+void shunt_input(){
     typedef struct shunt{
         int pole;
         float flux;
@@ -32,24 +33,16 @@ void shunt(){
     printf("entre number of division of torque to calculate current for each");
     scanf("%d",&n);
      
-    ptr = (float*) calloc(n,sizeof(float));
-    maxtq= s.power/(2*3.142*s.speed);
-    printf("%f",maxtq);
+    
+    maxtq= (s.power*1000)/(2*3.142*s.speed);
+    
     t=maxtq/n;
-     printf("%f",t);
+     
 
     eb=(s.pole*s.flux*s.z*s.speed)/(60*s.a);
-     printf("%f",eb);
-     printf("torque | current\n");
-    printf("-------|----------\n");
     
-    for( j=1; j<=n; j++){
-        *ptr = (t*j*2*3.142*s.speed)/eb;
-        printf("%f  | %f \n",j*t,*ptr);
-        printf("-------|--------\n");
-        
-        ptr++;
-        
-    }
+
+      shunt_output(t,s.speed,eb,n);
+     
 }
 

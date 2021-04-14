@@ -4,7 +4,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void shunt(void);
-void induction(void);
+void shunt_input(void);
+int shunt_output(float t, float speed, float eb, int n);
+void induction_input(void);
+int induction_output(float t, float speed, float pf,float voltage, int n);
 
 #endif

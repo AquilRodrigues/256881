@@ -1,5 +1,5 @@
 #include "fun.h"
-void induction(){
+void induction_input(){
     typedef struct induction{
         int pole;  
         float voltage;
@@ -28,21 +28,11 @@ void induction(){
 
     speed=(120*(m.freq))/(m.pole);
      
-    ptr = (float*) calloc(n,sizeof(float));
+   
     ratedtq= (9550*m.power)/(speed);
     t=ratedtq/n;
-    
-     printf("torque | current\n");
-    printf("-------|----------\n");
-    
-    for(int j=1; j<=n; j++){
 
-        *ptr= (n*t*2*3.142*speed)/(m.voltage*m.pf);
-     
-        printf("%d  |  %d \n",t*j, *ptr);
-        printf("-------|--------\n");
-        
-        ptr++;
-        
-    }
+     induction_output(t,speed,m.pf,m.voltage,n);
+    
+    
 }

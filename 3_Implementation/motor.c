@@ -7,13 +7,13 @@ int main(){
     scanf("%d",&choice);
     if(choice==1){
          
-         shunt();
+         shunt_input();
     }
     else if(choice==2){
-         induction();
+         induction_input();
     }
     else if(choice==3){
-         induction();
+         induction_input();
     }
     else{
         printf("invalid input");
