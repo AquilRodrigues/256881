@@ -1,4 +1,4 @@
 # Behavior Diagrams
 
 * Usecase Diagram :
-![UsecaseDiagram](https://github.com/Dhanushu1999/STEPin_Mini_Project/blob/master/2_Architecture/behavior%20Diagrams/UMLusecase.png)
+![UsecaseDiagram](https://github.com/AquilRodrigues/256881/blob/main/2_Architecture/Behavioural%20diagram.png)
