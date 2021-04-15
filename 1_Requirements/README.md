@@ -29,7 +29,7 @@ This project will provide basic calclulation of motor parameter in less time. It
     
 
 ## SWOT ANALYSIS
-![SWOT-Analysis]()
+![SWOT-Analysis](https://github.com/AquilRodrigues/256881/blob/main/1_Requirements/Motor%20parameter%20calculator.png)
 
 # 4W&#39;s and 1&#39;H
 
