@@ -13,7 +13,7 @@ int induction_output(float t, float speed, float pf, float voltage, int n){
 
         *ptr= (n*t*2*3.142*speed)/(voltage*pf);
      
-        printf("%d  |  %d \n",t*j, *ptr);
+        printf("%f  |  %f \n",t*j, *ptr);
         printf("----------|--------\n");
         
         ptr++;
