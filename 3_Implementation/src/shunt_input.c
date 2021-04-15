@@ -13,9 +13,9 @@ void shunt_input(){
     }sh;
     sh s;
     
-    float t,i,maxtq;
-    float *ptr,eb;
-    int j,n;
+    float t,maxtq;
+    float eb;
+    int n;
     printf("entre number of poles");
     scanf("%d",&s.pole);
     printf("entre flux per pole");
