@@ -54,9 +54,9 @@ This project will provide basic calclulation of motor parameter in less time. It
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
 |HR_01|windows /Linux operating system        |Implemented            |
-|HR_02|Gcc compiler with Makefile for Multifile programming|Implemented|
-|HR_03|Application that runs on both Windows and Linux operating system|Implemented|
-|HR_04|Application that allows user to make a choice of operation to be performed |Implemented|
+|HR_02|Gcc compiler with Makefile for Multifile programming|NA|
+|HR_03|Application that runs on both Windows and Linux operating system|NA|
+|HR_04|Application that allows user to make a choice of operation to be performed |NA|
 
 
 ## Low Level Requirements
