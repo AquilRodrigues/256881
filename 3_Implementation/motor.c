@@ -1,6 +1,6 @@
 
 #include "fun.h"
-
+//x
 int main(){
     int choice;
     printf("please entre choice of motor\n 1 for DC series\n 2 for DC shunt motor \n 3 for AC single phase:");
