@@ -41,7 +41,7 @@ test: $(SRC) $(TEST_SRC)
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 staticcheck:
-	cppcheck --enable=all $(SRC) 
+	cppcheck --enable=all $(SRC) motor.c
 
 memcheck:
 	valgrind ./$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
