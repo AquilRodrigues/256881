@@ -1,6 +1,11 @@
 #include "fun.h"
 
 void shunt_input(){
+    /**
+     * @brief 
+     * a structure is defined to take input from the user
+     * 
+     */
     typedef struct shunt{
         int pole;
         float flux;
@@ -41,7 +46,10 @@ void shunt_input(){
 
     eb=(s.pole*s.flux*s.z*s.speed)/(60*s.a);
     
-
+/**
+ * @brief function is called to find current vs torque characteristics
+ * 
+ */
       shunt_output(t,s.speed,eb,n);
      
 }

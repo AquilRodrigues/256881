@@ -1,5 +1,15 @@
 #include "fun.h"
-
+/**
+ * @brief 
+ * parameters are used to calculate torque vs current.
+ * 
+ * @param t 
+ * @param speed 
+ * @param pf 
+ * @param voltage 
+ * @param n 
+ * @return int 
+ */
 int induction_output(float t, float speed, float pf, float voltage, int n){
     
     float *ptr;

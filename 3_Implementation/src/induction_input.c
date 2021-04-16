@@ -10,9 +10,16 @@ void induction_input(){
         
     }ac;
     ac m;
-    
+    /**
+     * @brief 
+     * variables are declared
+     */
     float t,ratedtq,speed;
     int n;
+    /**
+     * @brief 
+     * Input is taken from the user for AC motor
+     */
     printf("entre number of poles");
     scanf("%d",&m.pole);          
     printf("entre rated volatage");
@@ -31,7 +38,10 @@ void induction_input(){
    
     ratedtq= (9550*m.power)/(speed);
     t=ratedtq/n;
-
+/**
+ * @brief 
+ * function is called for calculationg torque vs current
+ */
      induction_output(t,speed,m.pf,m.voltage,n);
     
     
