@@ -33,7 +33,7 @@ This project will provide basic calclulation of motor parameter in less time. It
 
 # 4W&#39;s and 1&#39;H
 
-## Who:
+## Who: 
 - Students and general public who wants to select appropriate motor for thier application.
 
 ## What:
@@ -64,7 +64,7 @@ This project will provide basic calclulation of motor parameter in less time. It
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
 |LR_01|The application must be able to execute irrespective of OS,provided with GCC compiler,makefile and Static and Dynamic code analysis       |Implemented            |
-|LR_02|Add record functionality wherein the user or admin can add the data of self which is then stored in File           |Implemented|
-|LR_03|Modify record which should be accessible by username and provision to change data   |Implemented|
-|LR_04|Display record to show modified/unmodified data when requested|Future|
+|LR_02|Adding choice for user to choose motor          |Implemented|
+|LR_03|Adding new features for other claculations |Future|
+
 
